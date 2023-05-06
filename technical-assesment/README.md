@@ -73,7 +73,7 @@ By design, this assessment contains more work than you will be able to complete 
 **Implement this user story by doing the following:**
 
  - [ ] In the Express server server/index.js, complete the request handler that will respond to GET requests to /api/menuItems with JSON of the menu items stored in the database.
- - [ ] In the client-side code, add an AJAX / Or axios request to fetch the menu items from the server when the App (or Home) component gets loaded.
+ -[ ] In the  client-side code, add an AJAX / Or axios request to fetch the menu items from the server when the App (or Home) component gets loaded.
  - [ ]Replace the sample data in your client with data obtained from your server.
 
     **WHEN THIS STEP IS COMPLETE:** please make a commit with the message "complete step two"
@@ -130,8 +130,8 @@ Note: You will need to ensure that only the recepies posted by the current user 
 > As a user, I want to be able to update a recepie that I have posted.
 
 **Implement this user story by doing the following:**
-
-  - [ ] In the client-side code, add a form to update the details of a recepie that was posted by the current user.
+ [ ] In the client-side code, add a form to update the details of a recepie that was posted by the current user
+  -.
   - [ ] Add an AJAX / Or axios request to update the recepie details on the server when the user submits the update form.
   - [ ] In the Express server server/index.js, complete the request handler that will respond to PUT requests to /api/recepies/:id and update the recepie with the matching id in the database.
 

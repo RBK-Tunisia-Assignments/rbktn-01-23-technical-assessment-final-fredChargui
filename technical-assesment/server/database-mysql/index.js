@@ -10,3 +10,5 @@ connection.connect((err) => {
   }
 });
 module.exports = connection;
+const mysql = require('mysql');
+

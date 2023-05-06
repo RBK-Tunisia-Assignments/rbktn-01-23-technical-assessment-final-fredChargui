@@ -5,7 +5,7 @@ const AllRecepies = () => {
     <div className="card-container">
     
       <div className="card">
-        <button className="delete">delete</button>
+      <button onClick={() => delete(recipe.id)}>Delete Recipe</button>
         <button className="update">update </button>
 
         <>
